@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://use.typekit.net/yro8bbi.css">
+    <title>My Web Page</title>
+</head>
+<body>
+    <div class="hero-img">
+        <header>
+            <h1>Welcome to Daniela's Page <img src="hibiscus.svg" style="width: 40px;"></h1>
+        </header>
+    </div>
+    <main>
+        <section class="nav-section">
+            <nav>
+                <ul>
+                    <li><a href="about.html">Home</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="photography.html">Photography</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <caption><h2 style="margin-bottom: 20px;">Hobbies</h2></caption>
+            <table>
+                <tr>
+                    <td>
+                        <div class="image-container" id="hobby-image1" onclick=openDIV()>
+                            <div class="fullscreen-image-container" id="div-open">
+                                <button class="close-button" id="close-button">X</button>
+                                <div class="div-col-container">
+                                    <div class="col-1">
+                                        <img src="hobby-image1.jpg" alt="Fullscreen Image" class="fullscreen-image">
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="col-caption">
+                                            <p>I've always been a Minecraft girl. I started playing this game when I was 14 years old and I keep coming back to it!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="image-container" id="hobby-image2" onclick=openDIV2()>
+                            <div class="fullscreen-image-container" id="div-open2">
+                                <button class="close-button" id="close-button">X</button>
+                                <div class="div-col-container">
+                                    <div class="col-1">
+                                        <img src="hobby-image2.jpg" alt="Fullscreen Image" class="fullscreen-image">
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="col-caption">
+                                            <p>I love music and playing guitar. I learned how to play it when I was 10 years old with the help of my cousin and brother.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="image-container" id="hobby-image3" onclick=openDIV3()>
+                            <div class="fullscreen-image-container" id="div-open3">
+                                <button class="close-button" id="close-button">X</button>
+                                <div class="div-col-container">
+                                    <div class="col-1">
+                                        <img src="hobby-image3.jpg" alt="Fullscreen Image" class="fullscreen-image">
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="col-caption">
+                                            <p>Reading books have been a huge part of my life. I love to read a lot of fiction and self-help books. My current read is "The Other Boleyn Girl" by Philippa Gregory.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><div class="caption-container"><p>Playing Minecraft</p></div></td>
+                    <td><div class="caption-container"><p>Playing guitar and listening to music</p></div></td>
+                    <td><div class="caption-container"><p>Reading books</p></div></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Daniela's Page</p>
+    </footer>
+</body>
